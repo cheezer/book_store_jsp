@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="DBJSP:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DBJSP_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="DBJSP/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DBJSP" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql" />
+        </element>
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/lib/mysql.jar" />
+    </root>
+  </artifact>
+</component>
